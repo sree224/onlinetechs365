@@ -192,7 +192,15 @@
 
 
 // images caourousals
-  
+$(document).ready(function(){
+  $("#bt-desc-btn").click(function(){
+    $("#bt-desc-text").slideToggle("slow");
+
+  });
+});
+
+
+
 
 })(jQuery);
 

@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>Online techs 365</title>
+        <title>OnlineTechs365</title>
     
         <link href="./assets/img/logo.png" rel="icon">
     
@@ -22,7 +22,7 @@
         <link href="assets/css/style1.css" rel="stylesheet">
     </head>
     
-<header id="header" style="background:linear-gradient(to right,#4a4a4bba, #1e1e1fcc),  url(./assets/img/contactbg1.jpg)">
+<header id="header" style="background:linear-gradient(to bottom,#e7d6c6ba, #1e1e1fcc),  url(./assets/img/contactbg1.jpg)">
     <div class="overlay"></div>
     <div class="container d-flex align-items-center">
         <a href="index.html" class="logo mr-auto"><img src="./assets/img/logonbg.png"></a>
@@ -34,7 +34,7 @@
                         <li><a href="pricing.html">Pricing</a></li>
                         <li class="active"><a href="contact.php">Contact Us</a></li>
 
-                        <li class="ml-5 text-right"><a href="contact.php"> <i class="bx bx-phone"></i> <b>US:</b> +1-888-5131305 <br> +1-877-5890925</a>
+                        <li class="ml-5 text-right"><a href="contact.php"> <i class="bx bx-phone"></i> <b>US:</b> +1-888-5131305</a>
                             <a href="contact.php"> <i class="bx bx-phone"></i> <b>Uk:</b> +44 800-102-6324</a></li>
                       
             </ul>
@@ -43,7 +43,7 @@
  
 
     <div class="container mt-4" data-aos="fade-up">
-        <div class="row text-center">
+        <div class="row">
             <div class="col-lg-6 col-md-6">
                 <div class="banner-text-wrap ">
                     <h1>Contact us</h1>  
@@ -55,16 +55,34 @@
                         </ol>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6  desclaimer-text  ">
-                <p>
-                    <b>*Disclaimer :</b>  <strong>Online Techs 365 </strong>
-                    provides services for diagnostic and technical support issues for desktops, laptops, mobile devices, and tablets. We are a THIRD PARTY solution and we are NOT AFFILIATED with any brands, trademarks, logos, or any other company names used. The brand names, trademarks, and logos belong to their respective owners and are for representation purposes only.      
-                </p>
+            <div class="col-lg-6 col-md-6 text-right btn-all">
+                <button type="button" class="btn des-btn-top" data-toggle="modal" data-target="#exampleModalLong">
+                    *Disclaimer
+                </button>
             </div>
          </div>
     </div>
   
 </header>
+<div class="modal fade " id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+    
+        <div class="modal-body p-4">
+            <p  class="text-justify des">
+                 <strong>"OnlineTechs365 (Owned by VRM PITTA LLC)"</strong>
+                provides services for diagnostic and technical support issues for desktops, laptops, mobile devices,
+                and tablets. We are a THIRD PARTY solution and we are <span style="color:orangered"><b>"NOT AFFILIATED"</b></span> with any brands, trademarks,
+                logos, or any other company names used. The brand names, trademarks, and logos belong to their
+                respective owners and are for representation purposes only.
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn des-btn-top" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <section id="about-us" class="about-us section-bg">
     <div class="container" data-aos="fade-up">
@@ -76,7 +94,7 @@
             <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-up">
                 <h3>Feel free to contact us</h3>
                 <p class="text-justify">
-                    At Online Techs 365, our skilled in house technicians are committed to making sure you get the service
+                    At OnlineTechs365, our skilled in house technicians are committed to making sure you get the service
                     you need, the way you need it. Fill out the form below and we'll contact you within 30 minutes (during regular business hours). Or give us a call, we're always happy to help!</p>
  
             </div>
@@ -91,13 +109,13 @@
         <div class="row content ">
          
             <div class="col-lg-5 md-6 text-left address-wrap p-5">
-                <h3><b><strong>Online Techs 365 </strong>Headquarters:</b></h3>
+                <h3><b><strong>OnlineTechs365 </strong>Headquarters:</b></h3>
                 <p class="pt-2"> 
                     <p><b>Address:</b>  71-75 Shelton Street  Covent Garden, 
                                         London, WC2H 9JQ </p>
-                    <p> <i class="bx bx-phone"></i> <b>US:</b>  +1-888-5131305 <br> 
+                    <p> <i class="bx bx-phone"></i> <b>United States:</b>  +1-888-5131305 <br> 
                         <span class="ml-5">+1-877-5890925</span>  </p>
-                       <p> <i class="bx bx-phone"></i> <b>Uk:</b> +44 800-102-6324 </p>
+                       <p> <i class="bx bx-phone"></i> <b>United Kingdom:</b> +44 800-102-6324 </p>
                     <p><b>Email:</b>support@onlinetechs365.com</p> 
                     <p><b> Hours:</b>Mon-Friday 7am-9pm PST, Saturday 9am-3pm PST</p> 
                 </p>  
@@ -116,7 +134,7 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-            <h2>Follow <strong>Online Techs 365 </strong>Online!</h2>
+            <h2>Follow <strong>OnlineTechs365 </strong>Online!</h2>
         </div>
         <div class="row content text-center">
             <div class="col-lg-12 pt-4 pt-lg-0" data-aos="fade-up">
@@ -186,10 +204,11 @@
 <section id="about-us" class="about-us ">
     <div class="container" data-aos="fade-up">
         <div class="row content text-center">
-            <div class="col-lg-12  pt-lg-0 " data-aos="fade-up">
-                <p >
-                  <strong>*Disclaimer:</strong>  <strong>Online Techs 365 </strong>provides services for diagnostic and technical support issues for desktops, laptops, mobile devices, and tablets. We are a THIRD PARTY solution and we are NOT AFFILIATED with any brands, trademarks, logos, or any other company names used. The brand names, trademarks, and logos belong to their respective owners and are for representation purposes only.      
-                </p>
+        <div class="col-lg-12  pt-lg-0 " data-aos="fade-up">
+                <button type="button" class="btn sticky-btn helpbtn" data-toggle="modal" data-target="#exampleModalLong">
+                    *Disclaimer
+                </button>
+              
             </div>
         </div>
     </div>
@@ -198,28 +217,38 @@
 
 <footer id="footer" class="footer pt-5">
     <div class="container">
-        <div class="row text-center">
+        <div class="row ">
             <div class="col-lg-3 col-md-3 text-left">
                 <div class="footer-heading ">
-                    <h5>Contact Online Techs 365</h5>
+                    <h5><u>Contact Us</u></h5>
                 </div>
-                <div class="footer-text mt-4  ">
-                    <p>  
+                <div class="footer-text ">
+                    <p>
+                    <p>
+                        <b>United Kingdom Address:</b> <br>
                         71-75 Shelton Street <br>
-                         Covent Garden, <br>
-                         London, WC2H 9JQ <br> <br>
-                       <p><i class="bx bx-phone"></i> <b>US:</b>  +1-888-5131305 <br> <span class="ml-5">+1-877-5890925</span> </p> 
-                        <i class="bx bx-phone"></i> <b>Uk:</b> +44 800-102-6324 
+                        Covent Garden, <br>
+                        London, WC2H 9JQ <br>
+                        <i class="bx bx-phone"></i> <b>Phone No:</b> +44 800-102-6324
+                    </p>
+                    <p>
+                        <b>United States Address:</b> <br>
+                        30 N Gould St <br>
+                        STE R Sheridan <br>
+                        Wyoming 82801 <br>
+                        <i class="bx bx-phone"></i> <b>Phone No:</b> +1-888-5131305 <br> 
+                    </p>
 
-                    </p>             
+
+                    </p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 ">
-                <div class="footer-heading text-center ">
-                    <h6>Quick Links </h6>
-                </div> 
-                <div class="q-links mt-4 text-left">
-                    <ul >
+            <div class="col-lg-3 col-md-3 f-links">
+                <div class="footer-heading  text-left ml-5 ">
+                    <h6><u>Quick Links</u> </h6>
+                </div>
+                <div class="q-links ml-3  text-left">
+                    <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="service.html">Services</a></li>
@@ -227,62 +256,77 @@
                         <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
-                   
+
             </div>
 
-            <div class="col-lg-3 col-md-3 text-justify">
-                <div class="footer-heading text-left ">
-                    <h6>*Disclaimer: </h6>
+            <div class="col-lg-3 col-md-3 ">
+                <div class="f-heading ">
+                    <h6 id="bt-desc-btn"><u>*Disclaimer</u> </h6>
                 </div>
-                <p >
-                 <strong>Online Techs 365 </strong>provides services for diagnostic and technical support issues for desktops, laptops, mobile devices, and tablets. We are a THIRD PARTY solution and we are NOT AFFILIATED with any brands, trademarks, logos, or any other company names used. The brand names, trademarks, and logos belong to their respective owners and are for representation purposes only.      
+          
+                <p class="text-justify" style="display:none;" id="bt-desc-text">
+                    <strong>"OnlineTechs365(owned by VRM PITTA LLC)") </strong>provides services for diagnostic and
+                    technical support issues for desktops, laptops, mobiles devices and tablets.
+                    We are a THIRD PARTY solution and we are <b style="color:orangered">NOT AFFILIATED</b> with any brands, trademarks, logos, or any
+                    other company names used. The brand names, trademarks, and logos belong to their respective owners
+                    and are for representation purposes only.
                 </p>
+              
             </div>
-            
-            <div class="col-lg-3 col-md-3">
-                <div class="footer-heading">
-                    <h6>Other Links </h6>
+
+            <div class="col-lg-3 col-md-3 f-links" >
+                <div class="footer-heading text-left ml-5">
+                    <h6><u>Other Links</u> </h6>
                 </div>
 
-                <div class="q-links mt-3 text-left">
-                    <ul >
+                <div class="q-links  text-left ml-2">
+                    <ul>
                         <li><a href="privacy.html">Privacy Policy</a></li>
                         <li><a href="terms.html">Terms and Conditions</a></li>
                         <li><a href="sitemap.html">Sitemap</a></li>
                         <li><a href="terms.html#refund-policy">Refund Policy</a></li>
+                        <li><a href="https://support.onlinetechs365.com/">IT Remote Service</a></li>
                     </ul>
                 </div>
-                <div class="footer-heading mt-5">
-                    <h6>Social Links </h6>
-                </div> 
-                <div class="social-links  mt-4 ml-5 pl-4  social-icons">
-                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <div class="social-l text-left">
+                    <div class="f-heading mt-5">
+                        <h6><u>Social Links </u></h6>
+                    </div>
+                    <div class="social-links  mt-4  social-icons">
+                        <a href="https://twitter.com/VrmPittaLLC" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.instagram.com/onlinetechs365/" class="instagram"><i
+                                class="bx bxl-instagram"></i></a>
+                        <a href="https://www.linkedin.com/company/vrm-pitta-llc/" class="linkedin"><i
+                                class="bx bxl-linkedin"></i></a>
+                    </div>
                 </div>
+                
             </div>
             <div class="col-lg-1 col-md-1">
-                <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top">Top</button>
-
+                <button onclick="topFunction()" class="back-to-top" id="myBtn" title="Go to top"><i class='bx bxs-up-arrow-alt'></i></button>
+                
             </div>
 
-    </div>
-<hr>
-    <div class="row copyright">
-        <div class="col-lg-12 col-md-12 text-center pb-2">
-            <div class="copyright-info">
-                &copy; Copyright   <a href="https://vrmpitta.com/">VRM Pitta</a>. All Rights Reserved.
-    
+
+        </div>
+        <hr>
+        <div class="row copyright">
+            <div class="col-lg-12 col-md-12 text-center pb-2">
+                <div class="copyright-info">
+                    &copy; Copyright <a href="https://vrmpitta.com/"><b>VRM PITTA LLC</b></a> All Rights
+                    Reserved.
+
+                </div>
             </div>
         </div>
-    </div>
-  </footer>
+</footer>
+
  
  <?php 
 if(isset($_POST['submit'])){
-    $to = "mounika.ch@ussdesigners.in"; // this is your Email address
-    $from = $_POST['mounika.ch@ussdesigners.in']; // this is the sender's Email address
+    $to = "support@onlinetechs365.com"; // this is your Email address
+    $from = $_POST['support@onlinetechs365.com']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
     $phno = $_POST['phno'];
