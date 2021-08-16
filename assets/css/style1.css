@@ -109,7 +109,10 @@ body {
   {
     word-spacing: -3px;
   }
-  
+  #bt-desc-btn{
+    cursor: pointer;
+
+  }
   .modal-body{
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -130,6 +133,7 @@ body {
     padding: 5px 33px 10px 14px;
     
   }
+
    .breadcrumb-top {
     position: relative;
     top: 20px !important;
@@ -243,7 +247,10 @@ body {
     right: 300px;
   }
   .breadcrumb-contact{
-    right: 410px;
+    /* right: 410px;
+     */
+     margin-right: 6
+     0px !important;
   }
 
   .breadcrumb .breadcrumb-item a:hover{
@@ -481,7 +488,7 @@ section {
 
  /* ----# our-services---- */
   .section-title p{
-    font-family: cursive;
+    font-weight: bold;
   }
   .services .icon-box{
       padding: 20px 24px;
@@ -510,7 +517,7 @@ section {
   /* ----# Clients---- */
 
   .clients h5{
-    font-family: cursive;
+    font-weight: bold;
     padding-top: 20px;
   }
  
@@ -523,7 +530,7 @@ section {
     box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
 }
 #customers-testimonials .shadow-effect p {
-    font-family: "Open Sans", sans-serif !important;
+    /* font-family: "Open Sans", sans-serif !important; */
     font-size: 15px;
     line-height: 1.5;
     margin: 0 0 17px 0;
@@ -829,6 +836,9 @@ word-break: break-all;
     position:relative;
     top: 190px !important;
     
+  }
+  .contact-btn{
+    margin-top: -121px;
   }
  .f-links{
    text-align: right !important;

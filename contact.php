@@ -34,7 +34,7 @@
                         <li><a href="pricing.html">Pricing</a></li>
                         <li class="active"><a href="contact.php">Contact Us</a></li>
 
-                        <li class="ml-5 text-right"><a href="contact.php"> <i class="bx bx-phone"></i> <b>US:</b> +1-888-5131305</a>
+                        <li class="ml-5 text-right"><a href="contact.php"> <i class="bx bx-phone"></i> <b>USA:</b> +1-888-5131305</a>
                             <a href="contact.php"> <i class="bx bx-phone"></i> <b>Uk:</b> +44 800-102-6324</a></li>
                       
             </ul>
@@ -48,14 +48,15 @@
                 <div class="banner-text-wrap ">
                     <h1>Contact us</h1>  
                 </div>
-                <div class="breadcrumb-top breadcrumb-contact">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active">Contact Us</li>
+                 <div class="breadcrumb-top breadcrumb-contact">
+                        <ol class="breadcrumb" >
+                            <!-- <li class="breadcrumb-item " ><a href="index.html">Home </a></li> -->
+                            <li class="breadcrumb-item active"style=" margin:22px -40px"><p style="color:white">Home</p>&nbsp;/ContactUs</li>
                         </ol>
-                </div>
+                </div> 
+               
             </div>
-            <div class="col-lg-6 col-md-6 text-right btn-all">
+            <div class="col-lg-6 col-md-6 text-right btn-all contact-btn">
                 <button type="button" class="btn des-btn-top" data-toggle="modal" data-target="#exampleModalLong">
                     *Disclaimer
                 </button>
@@ -72,7 +73,7 @@
             <p  class="text-justify des">
                  <strong>"OnlineTechs365 (Owned by VRM PITTA LLC)"</strong>
                 provides services for diagnostic and technical support issues for desktops, laptops, mobile devices,
-                and tablets. We are a THIRD PARTY solution and we are <span style="color:orangered"><b>"NOT AFFILIATED"</b></span> with any brands, trademarks,
+                and tablets. We are a <b style="color:orangered">THIRD PARTY</b> solution and we are <span style="color:orangered"><b>"NOT AFFILIATED"</b></span> with any brands, trademarks,
                 logos, or any other company names used. The brand names, trademarks, and logos belong to their
                 respective owners and are for representation purposes only.
             </p>
@@ -84,7 +85,10 @@
     </div>
   </div>
 
-<section id="about-us" class="about-us section-bg">
+
+
+
+  <section id="about-us" class="about-us section-bg">
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -109,16 +113,43 @@
         <div class="row content ">
          
             <div class="col-lg-5 md-6 text-left address-wrap p-5">
-                <h3><b><strong>OnlineTechs365 </strong>Headquarters:</b></h3>
+                <!-- <h3><b><strong>OnlineTechs365 </strong>Headquarters:</b></h3>
                 <p class="pt-2"> 
-                    <p><b>Address:</b>  71-75 Shelton Street  Covent Garden, 
-                                        London, WC2H 9JQ </p>
-                    <p> <i class="bx bx-phone"></i> <b>United States:</b>  +1-888-5131305 <br> 
-                        <span class="ml-5">+1-877-5890925</span>  </p>
-                       <p> <i class="bx bx-phone"></i> <b>United Kingdom:</b> +44 800-102-6324 </p>
+                    <h6>Address:</h6>
+                    <p><b>USA:</b> 
+                    
+                    71-75 Shelton Street  Covent Garden, 
+                      London, WC2H 9JQ </p>
+                    <p> <i class="bx bx-phone"></i>   +1-888-5131305 <br> 
+                     </p>
+                       <p> <i class="bx bx-phone"></i> <b>UK:</b> +44 800-102-6324 </p>
                     <p><b>Email:</b>support@onlinetechs365.com</p> 
                     <p><b> Hours:</b>Mon-Friday 7am-9pm PST, Saturday 9am-3pm PST</p> 
-                </p>  
+                </p>   -->
+                <div class="footer-text ">
+                <h4><strong>OnlineTechs365 </strong></h4>
+                    <p>
+                        <b>UK Office:</b> <br>
+                    <p class="pl-4">
+                        
+                        71-75 Shelton Street <br>
+                        Covent Garden, <br>
+                        London, WC2H 9JQ <br>
+                        <i class="bx bx-phone"></i> <b>Phone No:</b> +44 800-102-6324
+                    </p> <br>
+                    <b>USA Office:</b> <br>
+                    <p class="pl-4">
+                        
+                        30 N Gould St <br>
+                        STE R Sheridan <br>
+                        Wyoming 82801 <br>
+                        <i class="bx bx-phone"></i> <b>Phone No:</b> +1-888-5131305 <br> 
+                            
+                    </p>
+
+
+                    </p>
+                </div>
 
             </div>
             <div class="col-lg-7 md-8 text-justify">
@@ -225,18 +256,19 @@
                 <div class="footer-text ">
                     <p>
                     <p>
-                        <b>United Kingdom Address:</b> <br>
+                        <b>UK Office:</b> <br>
                         71-75 Shelton Street <br>
                         Covent Garden, <br>
                         London, WC2H 9JQ <br>
                         <i class="bx bx-phone"></i> <b>Phone No:</b> +44 800-102-6324
                     </p>
                     <p>
-                        <b>United States Address:</b> <br>
+                        <b>USA Office:</b> <br>
                         30 N Gould St <br>
                         STE R Sheridan <br>
                         Wyoming 82801 <br>
                         <i class="bx bx-phone"></i> <b>Phone No:</b> +1-888-5131305 <br> 
+                            
                     </p>
 
 
@@ -267,9 +299,9 @@
                 <p class="text-justify" style="display:none;" id="bt-desc-text">
                     <strong>"OnlineTechs365(owned by VRM PITTA LLC)") </strong>provides services for diagnostic and
                     technical support issues for desktops, laptops, mobiles devices and tablets.
-                    We are a THIRD PARTY solution and we are <b style="color:orangered">NOT AFFILIATED</b> with any brands, trademarks, logos, or any
-                    other company names used. The brand names, trademarks, and logos belong to their respective owners
-                    and are for representation purposes only.
+                    We are a <b style="color:orangered">THIRD PARTY</b> solution and we are <b style="color:orangered">NOT AFFILIATED</b> with any brands, trademarks, logos, or any
+                    other company names used. The brand names, trademarks, and logos belong &nbsp to  their  respective owners
+                    and are &nbsp&nbsp&nbsp&nbsp&nbsp for &nbsp&nbsp&nbsp&nbsp&nbsp representation &nbsp&nbsp&nbsp&nbsp&nbsp purposes&nbsp&nbsp&nbsp&nbsp&nbsp only.
                 </p>
               
             </div>
@@ -294,7 +326,7 @@
                     </div>
                     <div class="social-links  mt-4  social-icons">
                         <a href="https://twitter.com/VrmPittaLLC" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.facebook.com/VRM-Pitta-685562348973444" class="facebook"><i class="bx bxl-facebook"></i></a>
                         <a href="https://www.instagram.com/onlinetechs365/" class="instagram"><i
                                 class="bx bxl-instagram"></i></a>
                         <a href="https://www.linkedin.com/company/vrm-pitta-llc/" class="linkedin"><i
@@ -321,7 +353,6 @@
             </div>
         </div>
 </footer>
-
  
  <?php 
 if(isset($_POST['submit'])){
