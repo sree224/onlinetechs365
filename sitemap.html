@@ -19,30 +19,32 @@
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
+    <link href="assets/css/cookies.css" rel="stylesheet">
     <link href="assets/css/style1.css" rel="stylesheet">
 </head>
 
 
 <header id="header" style="background:linear-gradient(to right,#4a4a4bba, #1e1e1fcc),  url(./assets/img/pricebg1.jpg)">
-    <div class="overlay"></div>
-    <div class="container d-flex align-items-center">
-        <a href="index.html" class="logo mr-auto"><img src="./assets/img/logonbg.png"></a>
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
+    <nav class="navbar fixed-top navbar-expand navbar-light bg-light">
+        <div class="container d-flex align-items-center navbar-start">
+            <a href="index.html" class="logo mr-auto"><img src="./assets/img/logonbg.png"></a>
 
-                <li class="ml-5 text-right"><a href="contact.php"> <i class="bx bx-phone"></i> <b>USA:</b> +1-888-5131305
-                        </a>
-                    <a href="contact.php"> <i class="bx bx-phone"></i> <b>Uk:</b> +44 800-102-6324</a>
-                </li>
-
-            </ul>
-        </nav>
-    </div>
+            <div >
+                <ul class=" nav-menu d-none d-lg-block">
+                    <li ><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li class="active"><a href="service.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li class="ml-5 text-right">
+                        <a href="contact.php"> <i class="bx bx-phone"></i> <b>USA:</b> +1-888-5131305</a>
+                          
+                        <a href="contact.php"> <i class="bx bx-phone"></i> <b>Uk:</b> +44 800-102-6324</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div class="container mt-4" data-aos="fade-up">
         <div class="row ">
@@ -164,18 +166,17 @@
                         <b>UK Office:</b> <br>
                         71-75 Shelton Street <br>
                         Covent Garden, <br>
-                        London. WC2H 9JQ <br>
+                        London WC2H 9JQ <br>
                         <i class="bx bx-phone"></i> <b>Phone No:</b> +44 800-102-6324
                     </p>
                     <p>
                         <b>USA Office:</b> <br>
                         30 N Gould St <br>
                         STE R Sheridan <br>
-                        Wyoming. 82801 <br>
+                        Wyoming 82801 <br>
                         <i class="bx bx-phone"></i> <b>Phone No:</b> +1-888-5131305 <br> 
                             
                     </p>
-                    <p><strong>E-Mail:</strong> support@onlinetechs365.com</p>
 
 
                     </p>
@@ -203,7 +204,7 @@
                 </div>
           
                 <p class="text-justify" style="display:none;" id="bt-desc-text">
-                    <strong>"OnlineTechs365(owned by VRM PITTA LLC)") </strong>provides services for diagnostic and
+                    <strong>"OnlineTechs365(owned by VRM PITTA LLC)" </strong>provides services for diagnostic and
                     technical support issues for desktops, laptops, mobiles devices and tablets.
                     We are a <b style="color:orangered">THIRD PARTY</b> solution and we are <b style="color:orangered">NOT AFFILIATED</b> with any brands, trademarks, logos, or any
                     other company names used. The brand names, trademarks, and logos belong &nbsp to  their  respective owners
@@ -259,6 +260,42 @@
             </div>
         </div>
 </footer>
+
+
+<div class="fixed fixed--bottom cookie-disclaimer js-cookie-disclaimer">
+    <button id="close" style="background-color:black">Close ✖</button>
+    <div class="media__object media__object--right ">
+        <button class="button">Accept&nbsp;All</button>
+
+    </div>
+
+    <div class="media__body">
+        <p>We use cookies to understand how you use our site and to improve your experience, including personalizing
+            content and offering resources.
+            See our updated Privacy Policy and GDPR Policy to learn more. By continuing to use our site, you accept our
+            use of cookies.</p>
+    </div>
+
+</div>
+
+</div>
+
+<body>
+
+    <script>
+        const $$cookieDisclaimer = document.querySelector(".js-cookie-disclaimer");
+
+        if (!localStorage.getItem("cookieDisclaimer")) {
+            $$cookieDisclaimer.classList.add("is-active");
+        }
+
+        $$cookieDisclaimer.querySelector("button").addEventListener("click", () => {
+            localStorage.setItem("cookieDisclaimer", true);
+            $$cookieDisclaimer.classList.remove("is-active");
+        });
+    </script>
+
+
 
 
 
