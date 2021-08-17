@@ -273,6 +273,9 @@
                         <i class="bx bx-phone"></i> <b>Phone No:</b> +1-888-5131305 <br> 
                             
                     </p>
+                    <p>
+                        <b>E-mail:</b> Info@onlinetechs365.com <br>
+                    </p>
 
 
                     </p>
