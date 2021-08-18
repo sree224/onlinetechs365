@@ -273,9 +273,6 @@
                         <i class="bx bx-phone"></i> <b>Phone No:</b> +1-888-5131305 <br> 
                             
                     </p>
-                    <p>
-                        <b>E-mail:</b> Info@onlinetechs365.com <br>
-                    </p>
 
 
                     </p>
@@ -302,12 +299,12 @@
                     <h6 id="bt-desc-btn"><u>*Disclaimer</u> </h6>
                 </div>
           
-                <p class="text-justify" style="display:none;" id="bt-desc-text">
+                <p class="text-justify" style="display:none; word-spacing: 1px;" id="bt-desc-text">
                     <strong>"OnlineTechs365(owned by VRM PITTA LLC)" </strong>provides services for diagnostic and
                     technical support issues for desktops, laptops, mobiles devices and tablets.
                     We are a <b style="color:orangered">THIRD PARTY</b> solution and we are <b style="color:orangered">NOT AFFILIATED</b> with any brands, trademarks, logos, or any
                     other company names used. The brand names, trademarks, and logos belong &nbsp to  their  respective owners
-                    and are &nbsp&nbsp&nbsp&nbsp&nbsp for &nbsp&nbsp&nbsp&nbsp&nbsp representation &nbsp&nbsp&nbsp&nbsp&nbsp purposes&nbsp&nbsp&nbsp&nbsp&nbsp only.
+                    and are for representation purposes only.
                 </p>
               
             </div>
@@ -398,12 +395,13 @@ if(isset($_POST['submit'])){
     
     
     
-<div class="fixed fixed--bottom cookie-disclaimer js-cookie-disclaimer">
-    <button id="close" style="background-color:black">Close ✖</button>
+<div class="fixed fixed--bottom cookie-disclaimer js-cookie-disclaimer" id="des_close">
     <div class="media__object media__object--right ">
         <button class="button">Accept&nbsp;All</button>
 
     </div>
+    <!-- <button id="close" style="background-color:black" onclick="close()">Close ✖</button> -->
+    <button id="close" style="background-color:black" onclick="closebtn()">Close ✖</button>
 
     <div class="media__body">
         <p>We use cookies to understand how you use our site and to improve your experience, including personalizing
@@ -418,19 +416,7 @@ if(isset($_POST['submit'])){
 
 <body>
 
-    <script>
-        const $$cookieDisclaimer = document.querySelector(".js-cookie-disclaimer");
-
-        if (!localStorage.getItem("cookieDisclaimer")) {
-            $$cookieDisclaimer.classList.add("is-active");
-        }
-
-        $$cookieDisclaimer.querySelector("button").addEventListener("click", () => {
-            localStorage.setItem("cookieDisclaimer", true);
-            $$cookieDisclaimer.classList.remove("is-active");
-        });
-    </script>
-
+   
 
 
 

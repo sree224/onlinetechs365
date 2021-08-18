@@ -273,9 +273,6 @@
                         <i class="bx bx-phone"></i> <b>Phone No:</b> +1-888-5131305 <br> 
                             
                     </p>
-                    <p>
-                        <b>E-mail:</b> Info@onlinetechs365.com <br>
-                    </p>
 
 
                     </p>
@@ -360,47 +357,29 @@
         </div>
 </footer>
 
-<body>
+<div class="fixed fixed--bottom cookie-disclaimer js-cookie-disclaimer" id="des_close">
+    <div class="media__object media__object--right ">
+        <button class="button">Accept&nbsp;All</button>
 
-
-
-
-
-
-
-
-    <div class="fixed fixed--bottom cookie-disclaimer js-cookie-disclaimer">
-        <button id="close" style="background-color:black">Close ✖</button>
-        <div class="media__object media__object--right ">
-            <button class="button">Accept&nbsp;All</button>
-    
-        </div>
-    
-        <div class="media__body">
-            <p>We use cookies to understand how you use our site and to improve your experience, including personalizing
-                content and offering resources.
-                See our updated Privacy Policy and GDPR Policy to learn more. By continuing to use our site, you accept our
-                use of cookies.</p>
-        </div>
-    
     </div>
-    
+    <!-- <button id="close" style="background-color:black" onclick="close()">Close ✖</button> -->
+    <button id="close" style="background-color:black" onclick="closebtn()">Close ✖</button>
+
+    <div class="media__body">
+        <p>We use cookies to understand how you use our site and to improve your experience, including personalizing
+            content and offering resources.
+            See our updated Privacy Policy and GDPR Policy to learn more. By continuing to use our site, you accept our
+            use of cookies.</p>
     </div>
-    
+
+</div>
+
+
+
+
     <body>
     
-        <script>
-            const $$cookieDisclaimer = document.querySelector(".js-cookie-disclaimer");
-    
-            if (!localStorage.getItem("cookieDisclaimer")) {
-                $$cookieDisclaimer.classList.add("is-active");
-            }
-    
-            $$cookieDisclaimer.querySelector("button").addEventListener("click", () => {
-                localStorage.setItem("cookieDisclaimer", true);
-                $$cookieDisclaimer.classList.remove("is-active");
-            });
-        </script>
+      
     
     
     

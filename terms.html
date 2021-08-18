@@ -123,7 +123,7 @@
                     following (A) you are over the age of 18. (B) You are the sole owner of the device that is to be
                     serviced. (C) The device to be serviced is not a work or shared office computer of any kind. (D)The
                     information you have provided to <b>"OnlineTechs365 (owned by VRM PITTA LLC)"</b> is completely
-                    accurate to the best of your knowledge (E) you grant <b>"OnlineTechs365 (owned by VRM PITTA
+                    accurate to the best of your knowledge (E0) you grant <b>"OnlineTechs365 (owned by VRM PITTA
                         LLC)"</b> and its employees the right to access your device for the purposes of completing
                     agreed upon service.
                 </p>
@@ -386,9 +386,6 @@
                         <i class="bx bx-phone"></i> <b>Phone No:</b> +1-888-5131305 <br> 
                             
                     </p>
-                    <p>
-                        <b>E-mail:</b> Info@onlinetechs365.com <br>
-                    </p>
 
 
                     </p>
@@ -473,12 +470,12 @@
         </div>
 </footer>
 
-<div class="fixed fixed--bottom cookie-disclaimer js-cookie-disclaimer">
-    <button id="close" style="background-color:black">Close ✖</button>
+<div class="fixed fixed--bottom cookie-disclaimer js-cookie-disclaimer" id="des_close">
     <div class="media__object media__object--right ">
         <button class="button">Accept&nbsp;All</button>
 
     </div>
+    <button id="close" style="background-color:black" onclick="closebtn()">Close ✖</button>
 
     <div class="media__body">
         <p>We use cookies to understand how you use our site and to improve your experience, including personalizing
@@ -489,29 +486,7 @@
 
 </div>
 
-</div>
-
 <body>
-
-    <script>
-        const $$cookieDisclaimer = document.querySelector(".js-cookie-disclaimer");
-
-        if (!localStorage.getItem("cookieDisclaimer")) {
-            $$cookieDisclaimer.classList.add("is-active");
-        }
-
-        $$cookieDisclaimer.querySelector("button").addEventListener("click", () => {
-            localStorage.setItem("cookieDisclaimer", true);
-            $$cookieDisclaimer.classList.remove("is-active");
-        });
-    </script>
-
-
-
-
-<body>
-
-
 
 
 
