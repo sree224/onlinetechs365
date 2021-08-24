@@ -332,7 +332,12 @@ color: #4d4643;
   top:0px;
   padding-left: 30px;
 }
-
+.serv-desc-check{
+  color:green;
+}
+.bx-x{
+color:red
+}
 .banner-text span {
   font-weight: 900;
   display: inline-block;
@@ -673,7 +678,9 @@ display: inline-block;
 }
 .social-links .linkedin {
   background: #0e76a8;
-
+}
+.social-links .youtube {
+  background: #e44545;
 }
 .social-links a:hover{
   color:#fff;
@@ -697,10 +704,10 @@ display: inline-block;
 
   }
   .info-founder .icon-box .info-text {
-    /* overflow-y: scroll;  */
+    overflow-y: scroll; 
     padding: 30px;
-    /* background:linear-gradient(to right,#4a4a4bba, #1e1e1fcc) ; */
-    /* color:white; */
+    background:linear-gradient(to right,#4a4a4bba, #1e1e1fcc) ; 
+    color:white;
   }
   .info-founder .icon-box .info-text h5{
     color: #3134db;
@@ -715,7 +722,7 @@ display: inline-block;
   @media screen and (max-width: 770px) {
     .info-founder .icon-box{
       display:inline-block;
-      /* border:1px solid #ddd; */
+      border:1px solid #ddd;
       height:400px;
       box-shadow: 0px 40px 60px -20px rgba(12, 5, 62, 0.15);
   
@@ -780,9 +787,9 @@ display: inline-block;
   .service-card .icon-box p{
     border-bottom:1px solid #ccc;
     padding:1px;
-    font-size: 14px;
-    color:black;
-    font-weight: 550;
+    font-size: 13px;
+    color: #4d4643;
+    font-family: "Open Sans", sans-serif;
       }
     
       .service-card .icon-box .helpbtn{
@@ -799,7 +806,7 @@ display: inline-block;
         background:white;
       }
       .serv-desc p{
-        padding: 5px 50px 0px 50px;
+        padding: 20px 20px 0px 10px;
       }
 
 
@@ -815,7 +822,6 @@ display: inline-block;
   background: #3134db;
   color: #fff;
   transition: display 0.5s ease-in-out;
-  
   border:1px solid #3134db;
 }
 
@@ -879,14 +885,16 @@ word-break: break-all;
    text-align: right !important;
  }
   .footer-heading h6{
-margin-left: -40px !important;
- }
- .footer-text{
-margin-left: 55px;
- }
-
-.f-heading h6{
-  margin-right: 97px;
+    margin-left: -35px !important;
+    }
+    .footer-text{
+    margin-left: 55px;
+    }
+    .d-heading h6{
+    margin-left: 10px;
+    }
+    .f-heading h6{
+      margin-left:-30px;
 } 
 
 }
@@ -897,16 +905,195 @@ margin-left: 55px;
 .back-to-top .bx{
   font-size: 30px;
 }
-/* alert cookie policy */
-/* .alert-cookie-policy{
-  display: none;
-  border-radius: 0;
-  position: fixed;
-  bottom:0;
-  left:0;
-  right: 0;
-  z-index: 999;
+
+#p-para p{
+  padding:12px;
 }
-.alert-cookie-policy .alert{
-  border-radius: 0;
-} */
+
+
+/* cards pricing */
+
+:root {
+  /*========== Colors ==========*/
+  --hue-color: 210;
+
+  /* HSL color mode */
+  --first-color: hsl(var(--hue-color), 96%, 54%);
+  --first-color-light: hsl(var(--hue-color), 96%, 69%);
+  --first-color-alt: hsl(var(--hue-color), 96%, 37%);
+  --first-color-lighter: hsl(var(--hue-color), 14%, 96%);
+  --title-color: hsl(var(--hue-color), 12%, 15%);
+  --text-color: hsl(var(--hue-color), 12%, 35%);
+  --text-color-light: hsl(var(--hue-color), 12%, 65%);
+  --white-color: #FFF;
+  --body-color: hsl(var(--hue-color), 100%, 99%);
+  --container-color: #FFF;
+
+
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 2.125rem;
+    --h2-font-size: 1.5rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+    --tiny-font-size: .688rem;
+  }
+ 
+}
+.card__content
+
+/*==================== CARD PRICING ====================*/
+#cur1, #cur2, #cur3, #cur4, #cur5, #cur6, #cur7, #cur8, #cur9, #cur10{
+  font-size: 19px;
+}
+.card {
+  padding: 3rem 0;
+}
+
+.card__container {
+  gap: 3rem 1.25rem;
+}
+
+.card__content {
+  position: relative;
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem 2.5rem;
+  border-radius: 1.75rem;
+  box-shadow: 0 12px 24px hsla(var(--hue-color), 61%, 16%, 0.1);
+  transition: .4s;
+ 
+}
+.card__list-item-1{
+padding-top: 20px;
+list-style-type: none;
+}
+.card__content:hover {
+  box-shadow: 0 16px 24px hsla(var(--hue-color), 61%, 16%, 0.15);
+}
+
+.card__header-img {
+  width: 30px;
+  height: 30px;
+}
+
+.card__header-circle {
+  width: 40px;
+  height: 40px;
+  background-color: var(--first-color-lighter);
+  border-radius: 50%;
+  margin-bottom: var(--mb-1);
+  place-items: center;
+}
+
+.card__header-subtitle {
+  display: block;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  text-transform: uppercase;
+  margin-bottom: var(--mb-0-25);
+}
+
+.card__header-title {
+  font-size: var(--biggest-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-1);
+}
+
+.card__pricing {
+  position: absolute;
+  background-color: #3134db ;
+  /* background: linear-gradient(157deg, var(--first-color-light) -12%, var(--first-color) 109%); */
+  width: 90px;
+  height: 88px;
+  right: 1.5rem;
+  top: -1rem;
+  padding-top: 1.25rem;
+  text-align: center;
+}
+
+.card__pricing-number {
+  font-family: var(--pricing-font);
+}
+
+.card__pricing-symbol {
+  font-size: var(--smaller-font-size);
+}
+
+.card__pricing-number {
+  font-size: 19px;
+}
+
+.card__pricing-month {
+  display: block;
+  font-size: var(--tiny-font-size);
+}
+
+.card__pricing-number, 
+.card__pricing-month {
+  color: var(--white-color);
+}
+
+.card__pricing::after, 
+.card__pricing::before {
+  content: '';
+  position: absolute;
+
+}
+
+.card__pricing::after {
+  width: 100%;
+  height: 14px;
+  background-color: var(--white-color);
+  left: 0;
+  bottom: 0;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+.card__pricing::before {
+  width: 14px;
+  height: 16px;
+  background-color: var(--first-color-alt);
+  top: 0;
+  left: -14px;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+}
+
+.card__list {
+  row-gap: .5rem;
+  margin-bottom: var(--mb-2);
+}
+
+.card__list-item {
+  display: flex;
+  align-items: center;
+}
+.card__list-item .bx {
+font-size: 22px;
+}
+.card__list-item p{
+  margin: 5px 0px 0px 10px;
+text-align: left;
+font-size: 16px;
+font-family: "Open Sans", sans-serif;
+
+}
+
+
+.card__button {
+  padding: 1.25rem;
+  border: none;
+  font-size: var(--normal-font-size);
+  border-radius: .5rem;
+  background: linear-gradient(157deg, var(--first-color-light) -12%, var(--first-color) 109%);
+  color: var(--white-color);
+  cursor: pointer;
+  transition: .4s;
+}
+
+.card__button:hover {
+  box-shadow: 0px 40px 60px -20px rgba(12, 5, 62, 0.15);
+}
+
